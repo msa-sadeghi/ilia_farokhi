@@ -26,7 +26,19 @@
 # print(name + " " + family)
 
 
-number1 = int(input("enter a number: "))
-number2 = int(input("enter a number: "))
+# number1 = int(input("enter a number: "))
+# number2 = int(input("enter a number: "))
 
-print(number1 + number2)
+# print(number1 + number2)
+
+name = input("enter the name: ")
+family = input("enter the family: ")
+print(f'Hello {name} {family}')
+
+# برنامه ای بنویس که اسم کاربر را از ورودی بگیرد و اولین کاراکتر اسم او را پرینت کند
+# برنامه ای بنویس که دو عدد از کاربر بگیرد و حاصل جمع، ضرب، تقسیم و تفریق آن ها را نمایش دهد
+
+# خروجی برنامه قبل را به صورت زیر تبدیل کن
+# مثلا
+# 1 + 2 = 3
+# 1 * 2 = 2
