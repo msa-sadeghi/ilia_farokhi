@@ -31,9 +31,9 @@
 
 # print(number1 + number2)
 
-name = input("enter the name: ")
-family = input("enter the family: ")
-print(f'Hello {name} {family}')
+# name = input("enter the name: ")
+# family = input("enter the family: ")
+# print(f'Hello {name} {family}')
 
 # برنامه ای بنویس که اسم کاربر را از ورودی بگیرد و اولین کاراکتر اسم او را پرینت کند
 # برنامه ای بنویس که دو عدد از کاربر بگیرد و حاصل جمع، ضرب، تقسیم و تفریق آن ها را نمایش دهد
@@ -42,3 +42,17 @@ print(f'Hello {name} {family}')
 # مثلا
 # 1 + 2 = 3
 # 1 * 2 = 2
+
+try:
+    x = int(input("enter a number: "))
+    y = int(input("enter a number: "))
+
+    z = x // y
+    r = x % y
+
+    print("division result: ",z)
+    print("remainder result: ",r)
+except ValueError:
+    print("value is not valid")
+except ZeroDivisionError:
+    print("second number must be non zero")
